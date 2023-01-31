@@ -1,0 +1,32 @@
+data modify storage itemwheel SwapTemp set from block ~ ~-1 ~ Items
+data remove storage itemwheel SwapTemp[].Slot
+
+
+
+data modify block ~ ~-1 ~ Items[0] merge from storage itemwheel SwapTemp[-1]
+data modify block ~ ~-1 ~ Items[1] merge from storage itemwheel SwapTemp[-2]
+data modify block ~ ~-1 ~ Items[2] merge from storage itemwheel SwapTemp[-3]
+data modify block ~ ~-1 ~ Items[3] merge from storage itemwheel SwapTemp[-4]
+data modify block ~ ~-1 ~ Items[4] merge from storage itemwheel SwapTemp[-5]
+data modify block ~ ~-1 ~ Items[5] merge from storage itemwheel SwapTemp[-6]
+data modify block ~ ~-1 ~ Items[6] merge from storage itemwheel SwapTemp[-7]
+data modify block ~ ~-1 ~ Items[7] merge from storage itemwheel SwapTemp[-8]
+data modify block ~ ~-1 ~ Items[8] merge from storage itemwheel SwapTemp[-9]
+data modify block ~ ~-1 ~ Items[9] merge from storage itemwheel SwapTemp[-10]
+data modify block ~ ~-1 ~ Items[10] merge from storage itemwheel SwapTemp[-11]
+data modify block ~ ~-1 ~ Items[11] merge from storage itemwheel SwapTemp[-12]
+data modify block ~ ~-1 ~ Items[12] merge from storage itemwheel SwapTemp[-13]
+data modify block ~ ~-1 ~ Items[13] merge from storage itemwheel SwapTemp[-14]
+data modify block ~ ~-1 ~ Items[14] merge from storage itemwheel SwapTemp[-15]
+data modify block ~ ~-1 ~ Items[15] merge from storage itemwheel SwapTemp[-16]
+data modify block ~ ~-1 ~ Items[16] merge from storage itemwheel SwapTemp[-17]
+data modify block ~ ~-1 ~ Items[17] merge from storage itemwheel SwapTemp[-18]
+data modify block ~ ~-1 ~ Items[18] merge from storage itemwheel SwapTemp[-19]
+data modify block ~ ~-1 ~ Items[19] merge from storage itemwheel SwapTemp[-20]
+data modify block ~ ~-1 ~ Items[20] merge from storage itemwheel SwapTemp[-21]
+data modify block ~ ~-1 ~ Items[21] merge from storage itemwheel SwapTemp[-22]
+data modify block ~ ~-1 ~ Items[22] merge from storage itemwheel SwapTemp[-23]
+data modify block ~ ~-1 ~ Items[23] merge from storage itemwheel SwapTemp[-24]
+data modify block ~ ~-1 ~ Items[24] merge from storage itemwheel SwapTemp[-25]
+data modify block ~ ~-1 ~ Items[25] merge from storage itemwheel SwapTemp[-26]
+data modify block ~ ~-1 ~ Items[26] merge from storage itemwheel SwapTemp[-27]
